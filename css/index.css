@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*Begin CSS code below this line*/
+
 * {
     box-sizing: border-box;
 }
@@ -64,6 +66,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-weight: bold;
 }
 
 .container {
@@ -71,7 +74,18 @@ p {
     margin: 0 auto;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: flex-start;
+    padding: 20px 25px 15px 0px;
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
+    padding-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -110,6 +124,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
