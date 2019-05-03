@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-    font-weight: bold;
+
 }
 
 .container {
@@ -188,4 +188,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/*Begin 2nd page css her */
+
+
+
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: flex-start;
+    padding: 20px 25px 15px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-page {
+    display: inline-block;
+    padding: 30px 0px 10px 20px;
+    line-height: 1px;
+}
+
+.about-button {
+  margin: 0px 10px 10px 0px;
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  background: white;
+  width: 125px;
+}
+
+.about-boxes {
+    padding:15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 850px;
+}
+
+.blueprint {
+  display: flex wrap;
+  width: 360px;
+  height: 400px;
+}
+
+.working {
+    display: flex wrap;
+    width: 360px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.desk {
+    display: flex wrap;
+    width: 360px;
+    height: 400px;
+    padding-top:60px;
+}
+
+.conference {
+    display: flex wrap;
+    width: 360px;
+    height: 300px;
+    margin-right: 10px;
+    padding-top:60px;
+}
+
+.bottom-page {
+    display: inline-block;
+    height:250px;
+    padding: 100px 16px 40px;
+
 }
