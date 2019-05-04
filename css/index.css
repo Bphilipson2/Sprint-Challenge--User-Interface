@@ -192,19 +192,8 @@ footer nav a {
 
 
 
-/*Begin 2nd page css her */
+/*Begin 2nd page css here */
 
-
-
-.navbar2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    align-content: flex-start;
-    padding: 20px 25px 15px 0px;
-    text-decoration: none;
-    color: black;
-}
 
 .about-page {
     display: inline-block;
@@ -265,4 +254,12 @@ footer nav a {
     height:250px;
     padding: 100px 16px 40px;
 
+}
+
+/* Stretch goal */
+
+.firstday {
+    padding: 20px;
+    border: 1px solid red;
+    display: flex wrap;
 }
